@@ -19,6 +19,9 @@ public void autoKey()
     //driver.findElement(By.id("target")).sendKeys("JothiShankar");
     driver.findElement(By.id("target")).sendKeys(Keys.SPACE);
     driver.findElement(By.id("target")).sendKeys(Keys.ALT);
+    driver.findElement(By.id("target")).sendKeys(Keys.ENTER);
+    driver.findElement(By.id("target")).sendKeys(Keys.TAB);
+
     driver.manage().deleteAllCookies();
 
 
